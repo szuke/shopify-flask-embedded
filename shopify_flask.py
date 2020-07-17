@@ -14,7 +14,7 @@ app.secret_key = binascii.hexlify(os.urandom(16))
 # API credentials are sourced from enviroment variables:
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
-API_VERSION = '2019-10'
+API_VERSION = '2020-07'
 shopify.Session.setup(api_key=API_KEY, secret=API_SECRET)
 
 
